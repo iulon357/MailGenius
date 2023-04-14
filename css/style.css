@@ -3,11 +3,11 @@
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 a {
@@ -23,6 +23,8 @@ body {
 .header {
   background-color: black;
   padding: 40px 0;
+  position: absolute;
+  width: 100%;
 }
 
 .container {
@@ -38,12 +40,67 @@ body {
   margin-left: 66px;
 }
 
-.main-header-nav a+a,
-.info-header-nav a+a {
-    margin-left: 30px;
+.main-header-nav a + a,
+.info-header-nav a + a {
+  margin-left: 30px;
 }
 
 .info-header-nav {
-    color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   margin-left: auto;
+}
+
+.inner {
+  height: 100vh;
+  background: linear-gradient(89.79deg, #23196f 0.13%, #180d5b 99.88%);
+  padding-top: 106px;
+}
+
+.inner-call-to-action {
+  max-width: 545px;
+}
+.call-to-action-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.29;
+}
+
+.call-to-action-desq {
+  font-size: 18px;
+  line-height: 1.33;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  max-width: 390px;
+  margin-bottom: 55px;
+}
+
+.call-to-action-desq >span {
+  color: #36a7b9;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.btn {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.333;
+  padding: 16px 30px;
+}
+
+.btn-default {
+  background-color: #fff;
+  box-shadow: 0px 4px 20px #0F064C;
+  color: #0F064C;
 }
