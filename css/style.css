@@ -59,12 +59,7 @@ body {
 .inner-call-to-action {
   max-width: 545px;
 }
-.call-to-action-title {
-  font-size: 48px;
-  font-weight: bold;
-  color: #fff;
-  line-height: 1.29;
-}
+
 
 .call-to-action-desq {
   font-size: 18px;
@@ -103,4 +98,25 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   box-shadow: 0px 4px 20px #0F064C;
   color: #0F064C;
+}
+
+.call-to-action-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.29;
+  margin-top: 55px;
+}
+
+.no-sign-up-required {
+  color: #fff;
+  margin-top: 15px;
+}
+
+.nsur {
+  margin-left: 10px;
+}
+
+.check {
+  margin-left: 30px;
 }
